@@ -1,4 +1,4 @@
-select 
+select
 o."ID" as orderid
 , c."ID" as customerid
 , sum(p."AMOUNT") as totalpayment
