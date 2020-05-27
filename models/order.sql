@@ -1,6 +1,6 @@
 select
-o."ID" as orderid
-, c."ID" as customerid
+o."ID" as orderidd
+, c."ID" as customeridd
 , sum(p."AMOUNT") as totalpayment
 FROM RAW.JAFFLE_SHOP.ORDERS o 
 JOIN RAW.JAFFLE_SHOP.CUSTOMERS c
